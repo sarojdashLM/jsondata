@@ -1,0 +1,72 @@
+{
+    "1": {
+      "type": "MCQ",
+      "question": "Which pandas function is used to read a CSV file?",
+      "option1": "read_csv()",
+      "option2": "read_xlsx()",
+      "option3": "read()",
+      "option4": "csv_read()",
+      "answer": "read_csv()"
+    },
+    "2": {
+      "type": "MCQ",
+      "question": "How do you set the DataFrame index as 'date'?",
+      "option1": "df.set_index('date')",
+      "option2": "df['date'].set_index()",
+      "option3": "df.index('date')",
+      "option4": "df['date'] = index",
+      "answer": "df.set_index('date')"
+    },
+    "3": {
+      "type": "MCQ",
+      "question": "What is used to handle missing data in pandas?",
+      "option1": "dropna()",
+      "option2": "fillna()",
+      "option3": "Both dropna() and fillna()",
+      "option4": "drop_fill()",
+      "answer": "Both dropna() and fillna()"
+    },
+    "4": {
+      "type": "MCQ",
+      "question": "Which operation changes the DataFrame, but does not change the memory address of the DataFrame?",
+      "option1": "Shallow operations",
+      "option2": "Deep operations",
+      "option3": "Both of them",
+      "option4": "None of them",
+      "answer": "Shallow operations"
+    },
+    "5": {
+      "type": "MCQ",
+      "question": "How to replace all null values in a DataFrame?",
+      "option1": "fillna(value)",
+      "option2": "replaceNull(value)",
+      "option3": "replace_na(value)",
+      "option4": "dropna(value)",
+      "answer": "fillna(value)"
+    },
+    "6": {
+      "type": "Theory",
+      "question": "What is Pandas in Python?",
+      "answer": "Pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series."
+    },
+    "7": {
+      "type": "Theory",
+      "question": "What is a DataFrame in Pandas?",
+      "answer": "In Pandas, a Dataframe is a two-dimensional size-mutable, potentially heterogeneous tabular data structure with labeled axes (rows and columns)."
+    },
+    "8": {
+      "type": "Theory",
+      "question": "What is the purpose of pandas in Python?",
+      "answer": "Pandas is used for data manipulation, analysis and cleaning. It provides special data structures which are able to perform operations on both numerical data and time-series."
+    },
+    "9": {
+      "type": "Coding",
+      "question": "Write a Python code to create a pandas Series from a dictionary.",
+      "answer": "Here is the Python code:\nimport pandas as pd\ndata = {'a' : 0., 'b' : 1., 'c' : 2.}\ns = pd.Series(data)\nprint(s)"
+    },
+    "10": {
+      "type": "Coding",
+      "question": "Write a Python code to change the data type of a pandas DataFrame column.",
+      "answer": "Here is the Python code:\ndf['column name'] = df['column name'].astype('data type')"
+    }
+  }
