@@ -1,0 +1,32 @@
+{
+"1": {
+"type": "MCQ",
+"question": "Which pandas function is used to read a CSV file?",
+"assessment_id": "assessment0001"
+},
+"2": {
+"type": "MCQ",
+"question": "How do you set the DataFrame index as 'date'?",
+"assessment_id": "assessment0002"
+},
+"3": {
+"type": "MCQ",
+"question": "What is used to handle missing data in pandas?",
+"assessment_id": "assessment0003"
+},
+"4": {
+"type": "MCQ",
+"question": "Which operation changes the DataFrame, but does not change the memory address of the DataFrame?",
+"assessment_id": "assessment0004"
+},
+"5": {
+"type": "MCQ",
+"question": "How to replace all null values in a DataFrame?",
+"assessment_id": "assessment0005"
+},
+"6": {
+"type": "Theory",
+"question": "What is Pandas in Python?",
+"assessment_id": "assessment0006"
+}
+}
